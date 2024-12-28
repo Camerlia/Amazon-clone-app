@@ -6,7 +6,7 @@ import {
 } from "@mui/icons-material";
 import { logo } from "../../assets";
 import { useState } from "react";
-import { allItems } from "./context/context";
+import { allItems } from "../context/context";
 import HeaderBottom from "./headerBottom/HeaderBottom";
 
 const Header = () => {

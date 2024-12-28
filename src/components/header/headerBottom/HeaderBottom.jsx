@@ -1,6 +1,6 @@
 import MenuIcon from "@mui/icons-material/Menu";
 import { motion } from "framer-motion";
-import { headerItems } from "../context/context";
+import { headerItems } from "../../context/context";
 import { useEffect, useRef, useState } from "react";
 import { AccountCircle, Close } from "@mui/icons-material";
 import SideNav from "../sideNav/SideNav";
