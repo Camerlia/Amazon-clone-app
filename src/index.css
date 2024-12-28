@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 *{
   margin: 0;
   padding: 0;
@@ -14,5 +16,8 @@ link{
 @layer components{
   .headerHover{
     @apply px-2 h-[80%] flex items-center border border-transparent hover:border-white cursor-pointer duration-100
+  }
+  .footerLink{
+    @apply text-sm font-medium tracking-wide hover:text-gray-100 cursor-pointer hover:underline duration-150;
   }
 }
