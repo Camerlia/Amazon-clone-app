@@ -14,7 +14,7 @@ const Header = () => {
   const showdetails = allItems.name;
   console.log(showdetails);
   return (
-    <div className='w-full bg-amazonBlue'>
+    <div className='w-full bg-amazonBlue sticky top-0 z-50'>
       <div className="max-w-container mx-auto text-white px-4 py-3 gap-4 flex items-center">
         <div className="headerHover">
           <img className="w-24 mt-2" src={logo} alt="logo" />
@@ -38,7 +38,7 @@ const Header = () => {
           </span>
           {show && (
             <div>
-              <ul className="absolute w-56 h-80 top-10 left-0 overflow-y-scroll overflow-x-hidden bg-white-[1px] border-amazonBlue text-black p-2 flex-col gap-1 z-50">
+              <ul className="absolute w-56 h-80 top-10 left-0 overflow-y-scroll overflow-x-hidden bg-white border-amazonBlue text-black p-2 flex-col gap-1 z-50">
                 {allItems.map((item) => (
                   <li
                     key={item.id}
